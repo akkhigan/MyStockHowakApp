@@ -1,6 +1,7 @@
 package com.sam_chordas.android.stockhawk.rest;
 
 import android.content.ContentProviderOperation;
+import android.text.TextUtils;
 import android.util.Log;
 
 import com.sam_chordas.android.stockhawk.data.QuoteColumns;
@@ -106,7 +107,7 @@ public class Utils {
                 if (count == 1) {
                     jsonObject = jsonObject.getJSONObject("results")
                             .getJSONObject("quote");
-                    if (jsonObject.getString("Bid").equals("null")) {
+                    if (TextUtils.isEmpty(jsonObject.getString("Bid"))||jsonObject.getString("Bid").equals("null")) {
                         return true;
                     }
                 }
