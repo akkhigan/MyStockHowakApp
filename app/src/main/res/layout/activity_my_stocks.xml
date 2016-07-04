@@ -28,6 +28,7 @@
         fab:fab_colorPressed="@color/material_blue_600"
         fab:fab_colorRipple="@color/ripple"
         fab:fab_shadow="true"
+        android:contentDescription="@string/content_description_add_stock"
         fab:fab_type="normal"
         fab:layout_anchor="recycler_view"
         fab:layout_anchorGravity="bottom | end" />

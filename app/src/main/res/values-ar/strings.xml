@@ -12,4 +12,5 @@
   <string name="stock_saved">يتم حفظ هذه الأسهم بالفعل!</string>
   <string name="appwidget_text">أسعار الأسهم</string>
   <string name="add_widget">إضافة القطعة</string>
+  <string name="content_description_add_stock" translatable="true">إضافة أسهم</string>
 </resources>
